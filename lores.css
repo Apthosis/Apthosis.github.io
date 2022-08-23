@@ -3,6 +3,11 @@
     padding: 0;
     font-family: sans-serif;
 }
+@keyframes fade{
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
 .banner{
     width: auto;
     height: 100%;
@@ -76,4 +81,12 @@
 
 .content {
     color: #fff;
+}
+.content h1{
+    animation-name: fade;
+    animation-duration: 3s;
+}
+.content p {
+    animation-name: fade;
+    animation-duration: 8s;
 }
