@@ -65,7 +65,7 @@
 .content div {
     width: 100%;
     position: absolute;
-    top: 15%;
+    top: 10%;
     transform: translateY(-30);
     text-align: center;
     color: #fff;
@@ -73,20 +73,6 @@
     
 }
 
-div::after, div::before {
-    height: 863px;
-    content:' ';
-    position: absolute;
-    top: 0;
-    width: 50%;
-    margin-top: 89px;
-}
-div::after {
-    right: 0;
-    opacity: 7%;
-    background-color: white;
-    margin-top: 110px;
-}
 
 .content {
     color: #fff;
