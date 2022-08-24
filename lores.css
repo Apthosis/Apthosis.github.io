@@ -90,3 +90,12 @@
     animation-name: fade;
     animation-duration: 8s;
 }
+
+.content img {
+    float: right;    
+     margin-right: 200;
+     animation-name: fade;
+     animation-duration: 3s;
+     border-style: double;
+     
+    }
